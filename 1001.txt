@@ -1,0 +1,17 @@
+#include <stdio.h> 
+main(void) 
+{
+   int s ,i  ;
+   scanf("%d",&s ) ;
+        for (i=0 ; s!=1 ; i++ ){
+          if (s%2)
+             s=s*3+1;
+          else
+             s/=2 ;}
+   printf("%d",i);      
+   putchar('\n');
+   return 0;
+}
+
+
+
