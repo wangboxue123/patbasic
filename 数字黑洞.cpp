@@ -1,6 +1,6 @@
-/*Êı×ÖºÚ¶´*/
+/*ÃŠÃ½Ã—Ã–ÂºÃšÂ¶Â´*/
 #include <stdio.h>
-/*aµÄb´ÎÃİ*/
+/*aÂµÃ„bÂ´ÃÃƒÃ*/
 int  mi(int a,int b)
 {  int i;
    int z=1 ;
@@ -49,7 +49,7 @@ int main(){
 				big+=b[3-i]*ten[i];
 			}
 			a=big-sma;
-			printf("%d - %04d = %d\n",big,sma,a);
+			printf("%d - %04d = %04d\n",big,sma,a);
 		if(a==6174)
 			break;
 		}
